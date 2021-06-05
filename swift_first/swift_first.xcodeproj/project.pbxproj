@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03113062662962400522345 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03113052662962400522345 /* MainViewController.swift */; };
+		A078597D266BB82C00AEAFB7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0785978266BB82B00AEAFB7 /* Common.swift */; };
+		A078597E266BB82C00AEAFB7 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0785979266BB82B00AEAFB7 /* PageContentView.swift */; };
+		A078597F266BB82C00AEAFB7 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A078597A266BB82B00AEAFB7 /* PageTitleView.swift */; };
+		A0785980266BB82C00AEAFB7 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A078597B266BB82B00AEAFB7 /* UIColor-Extension.swift */; };
+		A0785981266BB82C00AEAFB7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A078597C266BB82C00AEAFB7 /* HomeViewController.swift */; };
 		A0EA737A26628AC200EB41B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA737926628AC200EB41B6 /* AppDelegate.swift */; };
 		A0EA737C26628AC200EB41B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA737B26628AC200EB41B6 /* SceneDelegate.swift */; };
-		A0EA737E26628AC200EB41B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA737D26628AC200EB41B6 /* ViewController.swift */; };
 		A0EA738126628AC200EB41B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EA737F26628AC200EB41B6 /* Main.storyboard */; };
 		A0EA738326628AC600EB41B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EA738226628AC600EB41B6 /* Assets.xcassets */; };
 		A0EA738626628AC600EB41B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EA738426628AC600EB41B6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A03113052662962400522345 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A0785978266BB82B00AEAFB7 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		A0785979266BB82B00AEAFB7 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		A078597A266BB82B00AEAFB7 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		A078597B266BB82B00AEAFB7 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		A078597C266BB82C00AEAFB7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A0EA737626628AC200EB41B6 /* swift_first.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_first.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0EA737926628AC200EB41B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0EA737B26628AC200EB41B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A0EA737D26628AC200EB41B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0EA738026628AC200EB41B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0EA738226628AC600EB41B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0EA738526628AC600EB41B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +47,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A03113072662965400522345 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				A03113052662962400522345 /* MainViewController.swift */,
+				A0785978266BB82B00AEAFB7 /* Common.swift */,
+				A078597C266BB82C00AEAFB7 /* HomeViewController.swift */,
+				A0785979266BB82B00AEAFB7 /* PageContentView.swift */,
+				A078597A266BB82B00AEAFB7 /* PageTitleView.swift */,
+				A078597B266BB82B00AEAFB7 /* UIColor-Extension.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
 		A0EA736D26628AC200EB41B6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +79,9 @@
 		A0EA737826628AC200EB41B6 /* swift_first */ = {
 			isa = PBXGroup;
 			children = (
+				A03113072662965400522345 /* main */,
 				A0EA737926628AC200EB41B6 /* AppDelegate.swift */,
 				A0EA737B26628AC200EB41B6 /* SceneDelegate.swift */,
-				A0EA737D26628AC200EB41B6 /* ViewController.swift */,
 				A0EA737F26628AC200EB41B6 /* Main.storyboard */,
 				A0EA738226628AC600EB41B6 /* Assets.xcassets */,
 				A0EA738426628AC600EB41B6 /* LaunchScreen.storyboard */,
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0EA737E26628AC200EB41B6 /* ViewController.swift in Sources */,
+				A078597F266BB82C00AEAFB7 /* PageTitleView.swift in Sources */,
+				A078597D266BB82C00AEAFB7 /* Common.swift in Sources */,
 				A0EA737A26628AC200EB41B6 /* AppDelegate.swift in Sources */,
+				A0785981266BB82C00AEAFB7 /* HomeViewController.swift in Sources */,
 				A0EA737C26628AC200EB41B6 /* SceneDelegate.swift in Sources */,
+				A078597E266BB82C00AEAFB7 /* PageContentView.swift in Sources */,
+				A0785980266BB82C00AEAFB7 /* UIColor-Extension.swift in Sources */,
+				A03113062662962400522345 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "beck.swift-first";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "beck.swift-first";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
